@@ -248,6 +248,7 @@ let scmnr.4410 = {'type': 'git', 'url': 'git://github.com/tpope/vim-characterize
 let scm['flatfoot'] = {'type': 'git', 'url': 'git://github.com/tpope/vim-flatfoot'}
 let scm['vim-rvm'] = {'type': 'git', 'url': 'git://github.com/tpope/vim-rvm'}
 let scm['markdown@tpope'] = {'type': 'git', 'url': 'git://github.com/tpope/vim-markdown'}
+let scm['bundler@tpope'] = {'type': 'git', 'url': 'git://github.com/tpope/vim-bundler'}
 " " The below plugin is present on vim.org, but does not belong to Tim Pope
 " let scmnr.1626 = {'type': 'git', 'url': 'git://github.com/tpope/vim-liquid'}
 
@@ -2173,6 +2174,8 @@ let scm['jedi-vim'] = {'type': 'git', 'url': 'git://github.com/davidhalter/jedi-
 " let hook='execute "lcd" fnameescape(%d) | call mkdir("plugin") | call rename("vimpy", "plugin/vimpy") | call vam#utils#CopyFile("vimpy.vim", "plugin/vimpy.vim")'
 " let scmnr.3752 = {'type': 'git', 'url': 'git://github.com/amitdev/vimpy', 'addon-info': {'post-install-hook': hook, 'post-scms-update-hook': substitute(hook, '\Vcall mkdir("plugin")', 'vam#utils#RmFR("plugin/vimpy")', '')}}
 " unlet hook
+
+let scm['vim-slim'] = {'type': 'git', 'url': 'git://github.com/bbommarito/vim-slim.git'}
 
 " Micah Elliott
 " Following repository does not contain correct directory tree
